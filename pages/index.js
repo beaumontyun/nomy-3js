@@ -28,7 +28,7 @@ function Box(props) {
 
 export default function Home() {
   return (
-    <>
+    <div className='w-screen h-screen'>
       <Canvas>
         <ambientLight />
         <pointLight position={[10, 10, 10]} />
@@ -37,6 +37,6 @@ export default function Home() {
         {/* <PointerLockControls /> */}
       <OrbitControls />
       </Canvas>
-    </>
+    </div>
   )
 }
